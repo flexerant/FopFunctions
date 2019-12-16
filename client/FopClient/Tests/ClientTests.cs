@@ -13,7 +13,7 @@ using Xunit;
 
 namespace Tests
 {
-    public class UnitTest1
+    public class ClientTests
     {
         [Fact(Skip = "This text needs to be run manually.")]
         public void Test1()
