@@ -2,6 +2,9 @@
 
 # FopFunctions
 
+[![Build status](https://dev.azure.com/flexerant/FOP%20Functions/_apis/build/status/FOP%20Function%20release%20build)](https://dev.azure.com/flexerant/FOP%20Functions/_build/latest?definitionId=3)
+[![NuGet Status](http://img.shields.io/nuget/v/Flexerant.FopClient.svg?style=flat-square)](https://www.nuget.org/packages/Flexerant.FopClient/)
+
 [Apache FOP](https://xmlgraphics.apache.org/fop/) is a powerful print formatter, commonly used to programmically render print output. FOP uses [XLS-FO](https://www.w3.org/TR/xsl11/) as its input and can produce PDF, PS, PCL, AFP, AWT and PNG as it's output. Being Java based, using it within a .NET application can be daunting task. This project is an attempt at a solution to aleviate this challenge by creating an [Azure function](https://azure.microsoft.com/en-us/services/functions/) to execute the FOP code in its native Java format, along with a .NET standard client that can easily be added to a .NET project.
 
 The idea is simple... host the Apache FOP Java code in an Azure function and call it from a .NET application when needed. This use case makes sense when the caller is already running in Azure. If you need something that runs locally or in a desktop environment, this approach probably isn't for you.
