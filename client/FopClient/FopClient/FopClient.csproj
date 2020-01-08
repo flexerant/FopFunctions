@@ -4,6 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Flexerant.FopClient</AssemblyName>
     <RootNamespace>Flexerant.FopClient</RootNamespace>
+    <Description>A .NET client for connecting to a FopFunctions instance running in Azure.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/flexerant/FopFunctions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/flexerant/FopFunctions</RepositoryUrl>
+    <PackageTags>Apache FOP, XSL-FO</PackageTags>
+    <PackageIcon>logo3.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,6 +34,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\logo3.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

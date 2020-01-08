@@ -1,3 +1,5 @@
+[![NuGet Status](http://img.shields.io/nuget/v/Flexerant.FopClient.svg?style=flat-square)](https://www.nuget.org/packages/Flexerant.FopClient/)
+
 # FopFunctions
 
 [![Build status](https://dev.azure.com/flexerant/FOP%20Functions/_apis/build/status/FOP%20Function%20release%20build)](https://dev.azure.com/flexerant/FOP%20Functions/_build/latest?definitionId=3)
